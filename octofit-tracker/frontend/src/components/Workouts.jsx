@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import apiClient from '../api';
 
+// API Endpoint: https://{CODESPACE_NAME}-8000.app.github.dev/api/workouts
 export default function Workouts() {
   const [workouts, setWorkouts] = useState([]);
   const [loading, setLoading] = useState(true);
